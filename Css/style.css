@@ -1,0 +1,208 @@
+#contenedor{
+	color: #107A36;
+	width: 90%;
+	margin: 0 auto;
+}
+
+header{
+		background: #6fbecb;
+		color: #ffffff;
+		padding: 20px;
+		font font-family: "Bauhaus 93";
+		box-shadow: 0 20px 20px rgba(0,0,0,0.2);
+		position:relative;
+}
+header h1{
+	margin: 0;
+	font-size: 70px;
+	font-weight: normal;
+}
+
+header h1 img{
+	width: 50px;
+	transition: all 1s ease;
+}
+header h1 img:hover{
+	-ms-transform: rotate(360deg); /*IE 9*/
+	-webkit-transform: rotate(360deg); /*CHROME*/
+	transform: rotate(360deg);
+	bottom: 10px;
+}
+
+header figure{
+	position:absolute;
+	right: 50px;
+	bottom: -05px;
+	margin: 0;
+}
+
+header figure img{
+	width: 165px;
+	height: 165px;
+	border-radius: 50%;
+	border: solid 3px #4B6E74;
+}
+
+span{
+	margin: 150px;
+	font-size: 25px;
+	font-weight: normal;
+}
+
+
+#noticias{
+	width: 80%;
+}
+
+#clasificados{
+	width: 15%;
+}
+
+#noticias article{
+	background: #f3f1f2;
+	padding: 0px;
+	margin-bottom: 15px;
+	border-radius: 0px 0px;
+	border-bottom: solid 0px #717171;
+	transition: all 1s ease;
+	cursor: pointer;
+	font-size: 25px;
+	text-align:justify;
+}
+
+#noticias article:hover{
+	text-shadow: 0 0 10px gray;	
+	box-shadow: 0 0 20px rgba(0,0,0,0.2);	
+}
+
+aside article{
+		border-bottom: solid 1px #717171;
+	}
+
+#noticias,
+#clasificados
+{
+	display: inline-block; 
+	vertical-align: top;
+}
+
+header h1{
+		font-size: 75px;
+	}
+	header h1 img{
+		width: 150px;
+	}
+
+#clasificados img{
+	width: 300px;
+	border:20px;
+}
+
+#noticias
+	{
+		width: 70%;
+		padding-right: 10px;
+	}
+#clasificados
+	{
+		width: 20%;
+		padding-left: 10px;
+		border-left: solid 1px #717171;
+	}
+
+
+footer{
+	background: #355560;
+	height: 75px;
+}
+
+footer span{
+	color: yellow;
+	display: block;
+	text-align: center;
+	margin: 0px;
+	font-size: 15px;
+}
+
+footer img{
+	position:relative;
+	left: 575px;
+	bottom: 0px;
+	margin: 10;
+}
+
+footer img
+{
+	width: 165px;
+	height: 200px;
+	border: solid 3px #4B6E74;
+}
+
+nav{
+	background: #63a9b5;
+	border-radius: 50px;
+}
+
+nav ul{
+	margin:2;
+}
+nav ul li{
+	display: inline-block;
+	padding: 15px 30px;
+	border-right: solid 2px gray;
+	transition: all 1s ease;
+}
+
+nav ul a{
+	color: black;
+	text-decoration: none;
+}
+
+nav ul li:hover{
+	background: transparent;
+	color: white;
+}
+
+
+.button article{
+	margin-top: 10px;
+	display: inline;
+}
+.button article span{
+	font-size: 40px;
+}
+
+
+/*desktop*/
+@media screen and (min-width: 1024px){
+}
+
+#clasificados{
+	border-left: 0;
+}
+
+/*tablet*/
+@media screen and (max-width: 1023px) and (min-width: 768px){
+	#noticias,
+	#clasificados{
+		display:block;
+		width: 100%;
+	}
+	#clasificados article{
+		width: 40%;
+		display: inline-block;
+	}
+	#clasificados article:nth-child(odd){
+		margin-left: 10px;
+	}
+}
+
+/*movil*/
+@media screen and (max-width: 767px){
+	#noticias,
+	#clasificados{
+		display:block;
+		width: 100%;
+	}
+
+
