@@ -89,9 +89,12 @@ aside article{
 header h1{
 		font-size: 75px;
 	}
-	header h1 img{
-		width: 150px;
-	}
+	
+header h1 img{
+	float: left;
+	margin-top: -15px;
+	width: 150px;
+}
 
 #clasificados img{
 	width: 300px;
